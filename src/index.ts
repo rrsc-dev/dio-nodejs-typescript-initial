@@ -10,3 +10,7 @@ function main() {
 //npx tsc --init : cria o arquivo tsconfig
 main();
 //  npx tsc src/index.ts = converte o arquivo .ts em .js (transpile)
+
+// Pacotes que roam node.js como node.ts
+//tsx
+// documentação do tsconfi

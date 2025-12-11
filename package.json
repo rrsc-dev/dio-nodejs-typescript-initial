@@ -8,13 +8,16 @@
   },
   "scripts": {
     "build": "npx tsc",
-    "start:dev": "npm run build && node src/index.js"
+    "start:dev": "tsx src/index.js",
+    "start:dev:watch": "tsx watch src/index.js",
+    "start:dist": "npm run build && node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
