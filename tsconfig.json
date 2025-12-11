@@ -1,6 +1,12 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    
+    // configurações para serem usadas no momento do transpile
+
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist", // pasta para onde vão os arquivos .ts após o transpile
+    "strict": true, // verifica se as variáveis estão sendo declaradas
+    "esModuleInterop": true, // permite compatilidade de module com commonjs
   }
 }

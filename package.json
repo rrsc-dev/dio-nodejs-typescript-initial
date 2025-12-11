@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "npx tsc src/index.ts",
+    "build": "npx tsc",
     "start:dev": "npm run build && node src/index.js"
   },
   "keywords": [],
