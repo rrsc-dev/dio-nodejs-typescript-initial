@@ -5,6 +5,8 @@ function main() {
   console.log(myName);
 }
 
+
+// tsconfig - Define o comportamento do typescript
+//npx tsc --init : cria o arquivo tsconfig
 main();
 //  npx tsc src/index.ts = converte o arquivo .ts em .js (transpile)
-//
